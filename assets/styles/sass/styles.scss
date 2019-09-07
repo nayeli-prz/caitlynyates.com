@@ -1,0 +1,187 @@
+@import "bootstrap/base-bootstrap";
+
+//My Own Variables :)
+
+//My Colors
+$navy: #283277;
+$seafoam: #34A293;
+$primary: $navy !default;
+$accent: #A82B67;
+
+
+//Begin Styling
+
+.name {
+  color: $seafoam;
+  font-family: adriane, serif;
+  font-weight: 700;
+  font-size: $h2-font-size;
+}
+
+.about {
+  max-width: 750px;
+}
+
+.sidebar-nav {
+  background-color: $navy;
+  color: $white;
+  max-width: 300px;
+  min-height: 100vh;
+  @media (min-width: 768px) {}
+}
+
+.full-menu  {
+  min-height: 100vh;
+  background-color: $navy;
+  color: $white;
+}
+
+
+
+// .header-nav {
+//   display:flex;
+//   flex: row;
+//   justify-content: space-between;
+//   &_container {
+//     display: flex;
+//   }
+// }
+
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  font-size: $font-size-sm;
+  font-family: adriane, serif;
+  text-transform: uppercase;
+  justify-content: flex-end; //for tablet breakpoint
+  a {
+    color: $white;
+    &:hover {
+      text-decoration: none;
+      -webkit-box-shadow: 0px 6px 0px 0px $seafoam;
+      -moz-box-shadow: 0px 6px 0px 0px $seafoam;
+      box-shadow: 0px 6px 0px 0px $seafoam;
+    }
+  }
+
+  .active {
+    -webkit-box-shadow: 0px 6px 0px 0px $accent;
+    -moz-box-shadow: 0px 6px 0px 0px $accent;
+    box-shadow: 0px 6px 0px 0px $accent;
+    &:hover {
+      text-decoration: none;
+      -webkit-box-shadow: 0px 6px 0px 0px $accent;
+      -moz-box-shadow: 0px 6px 0px 0px $accent;
+      box-shadow: 0px 6px 0px 0px $accent;
+    }
+
+  }
+  @media (min-width: 768px) {
+    flex-direction: column;
+    font-size: $font-size-base;
+  }
+  li {
+    margin-bottom: $spacer*1.25;
+    margin-left: $spacer*1.25;
+    @media (min-width: 768px) {
+      margin-left: 0px;
+    }
+  }
+}
+
+
+.header-nav {
+  background-color: $navy;
+  color: $white;
+  // max-width: 300px;
+  height: 70px;
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media (min-width: 768px) {
+    display: hide;
+  }
+}
+.horizontal-menu {
+  max-height: 30px;
+}
+.logo-styled {
+  font-family: adriane, serif;
+  @media (min-width: 768px) {
+    font-size: $h3-font-size;
+    line-height: $h3-font-size;
+  }
+
+  font-size: $h5-font-size;
+  line-height: $h5-font-size;
+}
+
+.menu-icon {
+   img {width: 25px;
+  height: auto;
+}
+}
+
+.headshot {
+  height: 200px;
+  width: auto;
+}
+
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: $seafoam;
+  color: $white;
+  bottom: 0;
+  width: 100vw;
+  height: 50px;
+  align-items: center;
+}
+
+//layout
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Mobile Menu Modal Styling Here
+.modal-content__menu {
+  // color: $navy;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  color: $modal-content-color;
+  pointer-events: auto;
+  background-color: $navy;
+  background-clip: padding-box;
+  border: none;
+  @include box-shadow($modal-content-box-shadow-xs);
+  // Remove focus outline from opened modal
+  outline: 0;
+}
+.modal-dialog__menu {
+  position: relative;
+  width: auto;
+  margin: 0;
+  // allow clicks to pass through for custom click handling to close modal
+  pointer-events: none;
+
+  // When fading in the modal, animate it to slide down
+  .modal.fade & {
+    @include transition($modal-transition);
+    transform: $modal-fade-transform;
+  }
+  .modal.show & {
+    transform: $modal-show-transform;
+  }
+}

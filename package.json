@@ -1,0 +1,13 @@
+{
+  "name": "caitlynyates.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nayeli-prz/caitlynyates.com.git",
+  "author": "Nayeli Perez <nayeliaperezt@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.14.7"
+  }
+}
