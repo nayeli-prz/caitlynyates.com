@@ -6,11 +6,39 @@
 $navy: #283277;
 $seafoam: #34A293;
 $primary: $navy !default;
-$accent: #A82B67;
+$accent: #ffc107;
 
 
 //Begin Styling
 
+
+//Typography
+
+h1, h2, h3, h4 {
+  font-family: adriane, serif;
+}
+h1 {
+  font-size: $h1-font-size;
+}
+h2 {
+  font-size: $h2-font-size;
+}
+h3 {
+  font-size: $h3-font-size;
+}
+h4 {
+  font-size: $font-size-base * 1.45;
+  text-transform: uppercase;
+  color: $navy;
+  box-shadow: 0 5px 0 0 $seafoam;
+  display: inline-block;
+}
+h5 {
+  font-size: $font-size-lg;
+  font-family: $font-family-base;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
 .name {
   color: $seafoam;
   font-family: adriane, serif;
@@ -56,7 +84,12 @@ $accent: #A82B67;
   font-size: $font-size-sm;
   font-family: adriane, serif;
   text-transform: uppercase;
-  justify-content: flex-end; //for tablet breakpoint
+  justify-content: space-between;; //for tablet breakpoint
+  &--mobile {
+    flex-direction: column;
+    font-size: $font-size-x-lg;
+  }
+
   a {
     color: $white;
     &:hover {
@@ -89,6 +122,10 @@ $accent: #A82B67;
     @media (min-width: 768px) {
       margin-left: 0px;
     }
+    @media (max-width: 768px) {
+      margin-left: 0px;
+      margin-bottom: $spacer*1.5;
+    }
   }
 }
 
@@ -109,6 +146,8 @@ $accent: #A82B67;
 }
 .horizontal-menu {
   max-height: 30px;
+  width: 80%;
+  max-width: 325px;
 }
 .logo-styled {
   font-family: adriane, serif;
@@ -122,9 +161,10 @@ $accent: #A82B67;
 }
 
 .menu-icon {
-   img {width: 25px;
-  height: auto;
-}
+   img {
+     width: 30px;
+     height: auto;
+  }
 }
 
 .headshot {
@@ -149,39 +189,26 @@ $accent: #A82B67;
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-
 }
 
-// Mobile Menu Modal Styling Here
-.modal-content__menu {
-  // color: $navy;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 100vh;
-  color: $modal-content-color;
-  pointer-events: auto;
-  background-color: $navy;
-  background-clip: padding-box;
-  border: none;
-  @include box-shadow($modal-content-box-shadow-xs);
-  // Remove focus outline from opened modal
-  outline: 0;
-}
-.modal-dialog__menu {
-  position: relative;
-  width: auto;
+.cv-page-heading {
+  max-width: 900px;
   margin: 0;
-  // allow clicks to pass through for custom click handling to close modal
-  pointer-events: none;
-
-  // When fading in the modal, animate it to slide down
-  .modal.fade & {
-    @include transition($modal-transition);
-    transform: $modal-fade-transform;
-  }
-  .modal.show & {
-    transform: $modal-show-transform;
-  }
+  align-items: center;
+}
+.cv-page-content{
+  background-color: $gray-150;
+  border-radius: $border-radius;
+  padding: 2.25rem;
+}
+.cv-section {
+  margin-bottom: 2rem;
+}
+.cv-item {
+  margin-bottom: 1.5rem;
+}
+.year {
+  font-size: $font-size-base;
+  color: $navy;
+  font-weight: 600;
 }

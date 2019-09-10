@@ -3,6 +3,9 @@
 // .modal-dialog    - positioning shell for the actual modal
 // .modal-content   - actual modal w/ bg and corners and stuff
 
+//.modal-menu       - my modal menu styling NP
+
+
 
 .modal-open {
   // Kill the scroll on the body
@@ -42,11 +45,14 @@
 
   // When fading in the modal, animate it to slide down
   .modal.fade & {
-    @include transition($modal-transition);
+    @include transition($modal-transition-faster);
     transform: $modal-fade-transform;
   }
   .modal.show & {
     transform: $modal-show-transform;
+  }
+  &--menu {
+    margin: 0;
   }
 }
 
@@ -113,6 +119,14 @@
   @include box-shadow($modal-content-box-shadow-xs);
   // Remove focus outline from opened modal
   outline: 0;
+  &--menu {
+    color: $white;
+    background-color: $navy;
+    // padding: $spacer * 1.5;
+    border-radius: 0;
+    border: 0;
+    height: 100vh;
+  }
 }
 
 // Modal background
@@ -139,7 +153,10 @@
   padding: $modal-header-padding;
   border-bottom: $modal-header-border-width solid $modal-header-border-color;
   @include border-top-radius($modal-content-border-radius);
-
+  &--menu {
+    padding: 0 1rem;
+    border-bottom: none;
+  }
   .close {
     padding: $modal-header-padding;
     // auto on the left force icon to the right even when there is no .modal-title

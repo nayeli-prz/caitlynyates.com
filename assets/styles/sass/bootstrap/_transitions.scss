@@ -6,6 +6,14 @@
   }
 }
 
+.fade-faster {
+  @include transition($transition-fade-faster);
+
+  &:not(.show) {
+    opacity: 0;
+  }
+}
+
 .collapse {
   &:not(.show) {
     display: none;

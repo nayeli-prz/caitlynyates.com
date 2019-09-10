@@ -1,0 +1,102 @@
+{
+  "section": {
+    "header": "Education",
+    "content": [
+      {
+          "date": "2018",
+          "title": "M.A. in Global Policy Studies",
+          "sub": "<em>LBJ School of Public Affairs at the University of Texas at Austin</em>"
+
+      },
+      {
+          "date": "2017",
+          "title": "Semester Exchange",
+          "sub": "<em>Centro de Investigación y Docencias Económicas (México)</em>"
+      },
+      {
+          "date": "2016",
+          "title": "B.A. in Anthropology and International Politics, <em>Cum Laude</em>",
+          "sub": "<em>Trinity University</em>"
+      },
+      {
+          "date": "2014",
+          "title": "Semester Exchange",
+          "sub": "<em>Universidad de Buenos Aires (Argentina)</em>"
+      }
+    ]
+  },
+  "section": {
+    "header": "Peer-reviewed Articles",
+    "content": [
+      {
+          "date": "2019",
+          "sub": "Yates, Caitlyn and Stephanie Leutert. “A Gendered Perspective on Migrant Kidnapping in Mexico.” <em>Crime and Delinquency.<em> Forthcoming."
+
+      },
+      {
+          "date": "2019",
+          "sub": "Yates, Caitlyn, and Douglas Farah. (2019). “El Salvador's Recognition of the People's Republic of China: A Regional Context.” <em>Strategic Perspectives</em>, (30): 1-27. Accessed at:",
+          "link": "https://inss.ndu.edu/Media/News/Article/1783977/el-salvadors-recognition-of-the-peoples-republic-of-china-a-regional-context/"
+      }
+    ]
+  },
+  "section": {
+    "header": "Book Chapters",
+    "content": [
+      {
+          "date": "2019",
+          "sub": "Yates Caitlyn and Douglas Farah. “El Salvador and Honduras” chapter in <em>Conflict in the 21st Century: Statelessness, Criminality, and Civilian Victimization</em>. Ed. Francesca Grandi: International Institute for Strategic Studies."
+
+      },
+      {
+          "date": "2019",
+          "sub": "Yates, Caitlyn and Stephanie Leutert. “Migrant Smuggling along Mexico’s Highway System” chapter in <em>Critical Insights on Irregular Migration Facilitation: Global Perspectives.</em> Eds. Gabriella Sanchez and Luigi Achilli. Florence: European University Institute. Accessed at:",
+          "link": "http://cadmus.eui.eu//handle/1814/62384"
+      }
+    ]
+  },
+  "section": {
+    "header": "Policy Report Publications",
+    "content": [
+      {
+          "date": "2019",
+          "sub": "Yates, Caitlyn and Luigi Achilli. “The Missing Nexus between Migrant Smuggling and Organized Crime” <em>United Nations Office on Drugs and Crime Forum.</em> Forthcoming."
+
+      },
+      {
+          "date": "2019",
+          "sub": "Yates, Caitlyn and Douglas Farah. “Maduro’s Last Stand: Venezuela’s Survival through the Bolivarian Joint Criminal Enterprise.” <em>IBI Consultants.</em> Accessed at",
+          "link": "https://www.ibiconsultants.net/_pdf/maduros-last-stand.pdf"
+      },
+      {
+          "date": "2018",
+          "sub": "Yates, Caitlyn, et. al. “Asylum Processing and Waitlists at the U.S.-Mexico Border. <em>Strauss Center for International Security and Law and Migration Policy Centre.</em> Accessed at:",
+          "link": "https://www.strausscenter.org/images/strauss/18-19/MSI/AsylumReport_190308.pdf"
+      },
+      {
+          "date": "2018",
+          "sub": "Yates, Caitlyn and Stephanie Leutert. “Migrant Kidnapping in Mexico: Regional Divergences.” <em>Strauss Center for International Security and Law.</em> Accessed at:",
+          "link": "https:// www.strausscenter.org/images/MSI/Leutert_KidnappingReport_181119_Final.pdf"
+      },
+      {
+          "date": "2018",
+          "sub": "Yates, Caitlyn, et. al. “Regulating the Private Security Sector in Mexico.” <em>Strauss Center for International Security and Law.</em> Accessed at: ",
+          "link": "http://www.strausscenter.org/images/pdf/MSI/MSI-CNS_Report_06.pdf"
+      },
+      {
+          "date": "2017",
+          "sub": "Yates, Caitlyn and Stephanie Leutert. “Migrant Smuggling along Mexico’s Highway System.” <em>Strauss Center for International Security and Law.</em> Accessed at: ",
+          "link": "http://www.strausscenter.org/images/pdf/MSI/MSI_Migrant_Report.pdf"
+      },
+      {
+          "date": "2017",
+          "sub": "Yates, Caitlyn. “Mexico’s Penitentiary System Reform.” <em>Strauss Center for International Security and Law.</em> Accessed at:",
+          "link": "https://www.strausscenter.org/images/ Courses_Scholars/PRP_2017/CaitlynYates_PRP_copy.pdf"
+      },
+      {
+          "date": "2017",
+          "sub": "Yates, Caitlyn. “The Growth of Drug Trafficking in Rosario: Disciplined Violence and the Social Resistance to Confront this System. <em>School for International Training.</em>"
+      }
+    ]
+  }
+}
