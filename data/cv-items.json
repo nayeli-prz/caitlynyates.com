@@ -1,5 +1,5 @@
-{
-  "section": {
+[
+  {
     "header": "Education",
     "content": [
       {
@@ -25,12 +25,12 @@
       }
     ]
   },
-  "section": {
+  {
     "header": "Peer-reviewed Articles",
     "content": [
       {
           "date": "2019",
-          "sub": "Yates, Caitlyn and Stephanie Leutert. “A Gendered Perspective on Migrant Kidnapping in Mexico.” <em>Crime and Delinquency.<em> Forthcoming."
+          "sub": "Yates, Caitlyn and Stephanie Leutert. “A Gendered Perspective on Migrant Kidnapping in Mexico.” <em>Crime and Delinquency.</em> Forthcoming."
 
       },
       {
@@ -40,7 +40,7 @@
       }
     ]
   },
-  "section": {
+  {
     "header": "Book Chapters",
     "content": [
       {
@@ -55,7 +55,7 @@
       }
     ]
   },
-  "section": {
+  {
     "header": "Policy Report Publications",
     "content": [
       {
@@ -99,4 +99,4 @@
       }
     ]
   }
-}
+]

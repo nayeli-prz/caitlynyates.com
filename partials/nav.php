@@ -1,38 +1,15 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Caitlyn Yates | Research</title>
-  <meta name="description" content="Caitlyn Yates CV">
-
-  <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
-  <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/popper.js/dist/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="assets/styles/styles.css">
-  <link rel="stylesheet" href="https://use.typekit.net/dji2ckd.css">
-
-</head>
-<body>
-
-
-
-  <div class="container-fluid">
-
-    <nav class="row header-nav d-block d-md-none pl-5 pt-3 pr-5">
+<nav class="row header-nav d-block d-md-none pl-5 pt-3 pr-5">
       <div class="header-nav_container">
         <div class="logo-styled">Caitlyn<br>Yates
         </div>
         <div class="horizontal-menu d-none d-sm-sm-block">
           <ul class="nav-menu">
             <li class="menu-item">
-              <a class="active">About</a>
+              <a href="index.php">About</a>
             </li>
 
             <li class="menu-item">
-              <a href="cv.html">CV</a>
+              <a href="cv.php">CV</a>
             </li>
 
             <li class="menu-item">
@@ -66,10 +43,10 @@
                   <nav class="col-12 p-5">
                       <ul class="nav-menu nav-menu--mobile mt-1">
                         <li class="menu-item">
-                          <a class="active">About</a>
+                          <a href="index.php">About</a>
                         </li>
                         <li class="menu-item">
-                          <a href="cv.html">CV</a>
+                          <a href="cv.php">CV</a>
                         </li>
                         <li class="menu-item">
                           <a href="#">Publications</a>
@@ -94,10 +71,10 @@
           <div class="logo-styled">Caitlyn<br>Yates</div>
           <ul class="nav-menu mt-5">
             <li class="menu-item">
-              <a class="active">About</a>
+              <a href="index.php">About</a>
             </li>
             <li class="menu-item">
-              <a href="cv.html">CV</a>
+              <a href="cv.php">CV</a>
             </li>
             <li class="menu-item">
               <a href="#">Publications</a>
@@ -109,18 +86,3 @@
         </div>
       </nav>
 <!-- End Navigation -->
-      <div class="col mt-5 blue p-5">
-        <img class="rounded-lg headshot mb-4 shadow" src="assets/images/caitlyn_2.jpg" alt="Headshot of Caitlyn">
-        <p class="about">
-          <span class="name">Caitlyn Yates</span> is the research coordinator at IBI Consultants and the Center for Strategic Research, Institute for National Strategic Studies at the National Defense University. Prior to these positions, Yates worked as a research associate at the Mexico Security Initiative, Strauss Center for International Security and Law, at the University of Texas at Austin. Her work focuses on human security, organized crime, transit migration, migrant facilitation and borders in Latin America. Caitlyn focuses specifically on Mexico and the Colombia-Panama border in her fieldwork. She has presented her work before the United Nations, United States government agencies and departments, and at academic conferences. Yates holds a Bachelor of Arts from Trinity University and a Master of Public Policy from the LBJ School of Public Affairs at the University of Texas at Austin.
-        </p>
-        <button type="button" class="btn btn-primary btn-medium mt-3">Download CV</button>
-      </div>
-    </div>
-    <div class="row footer">
-      <small class="pt-3">Made by Nayeli Pérez | Copyright 2019</small>
-    </div>
-
-  </div>
-</body>
-</html>
