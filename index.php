@@ -3,10 +3,16 @@
 <body>
   <div class="container-fluid">
       <?php require(__DIR__."/partials/nav.php") ?>
-      <div class="col mt-5 blue p-5">
-        <img class="rounded-lg headshot mb-4 shadow" src="assets/images/caitlyn_2.jpg" alt="Headshot of Caitlyn">
+      <div class="col mt-3 blue p-5">
+        <div class="row mb-4 justify-content-around">
+          <div class="col-sm rounded-lg intro-img intro-img--1 shadow" alt="Headshot of Caitlyn"></div>
+          <div class="col-sm rounded-lg intro-img intro-img--2 shadow" alt="Headshot of Caitlyn"></div>
+      </div>
+      <div class="row mx-0 mb-4 caption">
+        <small>Yaviza, Panama and Boca de Cupe, Panama, both in the Darién Province, 2019</small>
+      </div>
         <p class="about">
-          <span class="name">Caitlyn Yates</span> is the research coordinator at IBI Consultants and the Center for Strategic Research, Institute for National Strategic Studies at the National Defense University. Prior to these positions, Yates worked as a research associate at the Mexico Security Initiative, Strauss Center for International Security and Law, at the University of Texas at Austin. Her work focuses on human security, organized crime, transit migration, migrant facilitation and borders in Latin America. Caitlyn focuses specifically on Mexico and the Colombia-Panama border in her fieldwork. She has presented her work before the United Nations, United States government agencies and departments, and at academic conferences. Yates holds a Bachelor of Arts from Trinity University and a Master of Public Policy from the LBJ School of Public Affairs at the University of Texas at Austin.
+          <span class="name">Caitlyn Yates</span> is a critical migration researcher focusing on transnationalism, im(mobility), and extra-continental migration in the Western Hemisphere.
         </p>
         <button type="button" class="btn btn-primary btn-medium mt-3">Download CV</button>
       </div>

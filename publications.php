@@ -5,12 +5,11 @@
       <?php require(__DIR__."/partials/nav.php") ?>
       <div class="col mt-3 blue p-4 p-sm-5">
         <div class="row justify-content-between cv-page-heading mb-4">
-        <h1>CV</h1>
-          <button type="button" class="btn btn-secondary btn-medium">Download PDF</button>
+        <h1>Publications</h1>
         </div>
         <div class="col cv-page-content p-4 p-sm-5">
           <?php
-            $data = json_decode(file_get_contents(__DIR__.'/data/cv-items.json'));
+            $data = json_decode(file_get_contents(__DIR__.'/data/pub-items.json'));
             foreach($data as $section) {
           ?>
             <div class="cv-section">
