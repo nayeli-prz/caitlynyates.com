@@ -5,19 +5,31 @@
         <div class="horizontal-menu d-none d-sm-sm-block">
           <ul class="nav-menu">
             <li class="menu-item">
-              <a href="about.php">About</a>
+              <a
+                href="about.php"
+                class=<?= ($page_name == "about") ? "active" : "" ?>
+               >About</a>
             </li>
 
             <li class="menu-item">
-              <a href="cv.php">CV</a>
+              <a
+                href="cv.php"
+                class=<?= ($page_name == "cv") ? "active" : "" ?>
+               >CV</a>
             </li>
 
             <li class="menu-item">
-              <a href="publications.php">Publications</a>
+              <a
+                href="publications.php"
+                class=<?= ($page_name == "publications") ? "active" : "" ?>
+               >Publications</a>
             </li>
 
             <li class="menu-item">
-              <a href="contact.php">Contact</a>
+              <a
+                href="contact.php"
+                class=<?= ($page_name == "contact") ? "active" : "" ?>
+              >Contact</a>
             </li>
 
           </ul>
@@ -71,16 +83,28 @@
           <div class="logo-styled"><a href="index.php">Caitlyn<br>Yates</div></a>
           <ul class="nav-menu mt-5">
             <li class="menu-item">
-              <a href="about.php">About</a>
+              <a
+                href="about.php"
+                class=<?= ($page_name == "about") ? "active" : "" ?>
+               >About</a>
             </li>
             <li class="menu-item">
-              <a href="cv.php">CV</a>
+              <a
+                href="cv.php"
+                class=<?= ($page_name == "cv") ? "active" : "" ?>
+              >CV</a>
             </li>
             <li class="menu-item">
-              <a href="publications.php">Publications</a>
+              <a
+                href="publications.php"
+                class=<?= ($page_name == "publications") ? "active" : "" ?>
+              >Publications</a>
             </li>
             <li class="menu-item">
-              <a href="contact.php">Contact</a>
+              <a
+                href="contact.php"
+                class=<?= ($page_name == "contact") ? "active" : "" ?>
+              >Contact</a>
             </li>
           </ul>
         </div>

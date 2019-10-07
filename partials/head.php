@@ -1,7 +1,6 @@
 <html lang="en">
 <?php
-  $pages = ["index", "cv", "publications", "contact"];
-  $currPage =  basename($_SERVER['PHP_SELF'], ".php");
+  $page_name =  basename($_SERVER['PHP_SELF'], ".php");
 ?>
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
