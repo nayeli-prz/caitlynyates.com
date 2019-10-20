@@ -4,17 +4,25 @@
   <div class="container-fluid">
       <?php require(__DIR__."/partials/nav.php") ?>
       <div class="col mt-3 blue p-5">
-        <div class="row mb-4 justify-content-around">
-          <div class="col-sm rounded-lg intro-img intro-img--1 shadow" alt="Headshot of Caitlyn"></div>
-          <div class="col-sm rounded-lg intro-img intro-img--2 shadow" alt="Headshot of Caitlyn"></div>
-      </div>
-      <div class="row mx-0 mb-4 caption">
-        <small>Yaviza, Panama and Boca de Cupe, Panama, both in the Darién Province, 2019</small>
-      </div>
-        <p class="about">
-          <span class="name">Caitlyn Yates</span> is a critical migration researcher focusing on transnationalism, im(mobility), and extra-continental migration in the Western Hemisphere.
-        </p>
-        <button type="button" class="btn btn-primary btn-medium mt-3">Download CV</button>
+        <div class="row mb-5">
+          <div class="col about">
+
+            <p><span class="name">Caitlyn Yates</span> is a critical migration researcher focusing on transnationalism, im(mobility), and extra-continental migration in the Western Hemisphere.<br></p>
+              <a href="assets/CaitlynYatesCV_2019.pdf"><button type="button" class="btn btn-secondary btn-medium mt-3">Download CV</button></a>
+          </div>
+
+        </div>
+
+        <div class="row mx-0 mt-4 content-section content-section--home p-2 p-md-3 no-gutters">
+          <div class="col-md-9" style="max-width: 525px;">
+            <img src="/assets/images/img-group.svg" class="img-group">
+          </div>
+          <div class="col-md-3">
+            <div class="row mx-0 mb-4 caption">
+              <small>Yaviza, Panama and Boca de Cupe, Panama, both in the Darién Province, 2019</small>
+            </div></div>
+        </div>
+
       </div>
     </div>
     <div class="row footer">

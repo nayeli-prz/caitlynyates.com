@@ -4,7 +4,7 @@
 
 //My Colors
 $navy: #283277;
-$seafoam: #34A293;
+$seafoam: #04a790; //#34A293;
 $primary: $navy !default;
 $accent: #ffc107;
 $link: #2470bd; //Lighter blue for links
@@ -62,7 +62,7 @@ small {
 }
 
 .about {
-  max-width: 750px;
+  max-width: 725px;
 }
 
 .sidebar-nav {
@@ -217,6 +217,11 @@ small {
   border-left: 4.5px solid $seafoam;
   padding-left: 10px;
   max-width: 500px;
+  margin-top: 24px;
+  @include media-breakpoint-up(md) {
+    margin-left: 16px !important;
+    margin-top: 0 !important;
+  }
 }
 
 .footer {
@@ -240,9 +245,10 @@ small {
   margin: 0;
   align-items: center;
 }
-.cv-page-content{
+.content-section{
   background-color: $gray-150;
-  border-radius: $border-radius;
+  border-radius: .2rem;
+  max-width: 1000px;
 }
 .cv-section {
   margin-bottom: 2rem;
@@ -263,4 +269,9 @@ small {
   @media only screen and (max-width: 425px) {
     white-space: nowrap;
   }
+}
+
+
+img.img-group {
+  width: 100%;
 }

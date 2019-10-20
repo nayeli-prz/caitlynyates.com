@@ -1,4 +1,4 @@
-<nav class="row header-nav d-block d-md-none pl-5 pt-3 pr-5 sticky-top">
+<nav class="row header-nav d-block d-md-none pl-5 pt-3 pr-5">
       <div class="header-nav_container">
         <div class="logo-styled"><a href="index.php">Caitlyn<br>Yates</a>
         </div>

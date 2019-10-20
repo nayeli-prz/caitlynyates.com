@@ -6,9 +6,9 @@
       <div class="col mt-3 blue p-4 p-sm-5">
         <div class="row justify-content-between cv-page-heading mb-4">
         <h1>CV</h1>
-          <button type="button" class="btn btn-secondary btn-medium">Download PDF</button>
+          <a href="assets/CaitlynYatesCV_2019.pdf"><button type="button" class="btn btn-secondary btn-medium">Download PDF</button></a>
         </div>
-        <div class="col cv-page-content p-4 p-sm-5">
+        <div class="col content-section p-4 p-sm-5">
           <?php
             $data = json_decode(file_get_contents(__DIR__.'/data/cv-items.json'));
             foreach($data as $section) {

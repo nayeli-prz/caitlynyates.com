@@ -7,7 +7,7 @@
         <div class="row justify-content-between cv-page-heading mb-4">
         <h1>Publications</h1>
         </div>
-        <div class="col cv-page-content p-4 p-sm-5">
+        <div class="col content-section p-4 p-sm-5">
           <?php
             $data = json_decode(file_get_contents(__DIR__.'/data/pub-items.json'));
             foreach($data as $section) {
