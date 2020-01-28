@@ -37,8 +37,6 @@
       </div>
     </div>
   </div>
-  <div class="row footer">
-    <small class="pt-3">Made by Nayeli Pérez | Copyright 2019</small>
-  </div>
+  <?php require(__DIR__."/partials/footer.php") ?>
 </body>
 </html>

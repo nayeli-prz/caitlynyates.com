@@ -25,9 +25,7 @@
     </div>
   </div>
   </div>
-  <div class="row footer">
-    <small class="pt-3">Made by <a href="https://www.nayeliperez.com">Nayeli Pérez</a>  |  Copyright 2020</small>
-  </div>
+  <?php require(__DIR__."/partials/footer.php") ?>
 </body>
 
 </html>
