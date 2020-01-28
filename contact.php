@@ -33,7 +33,7 @@
         </div>
       </div>
     </div>
-    <div class="row footer">
+    <div class="<?=(($page_name == "contact") ? "position-absolute w-100" : "")." row footer"?>">
       <small class="pt-3">Made by Nayeli Pérez | Copyright 2019</small>
     </div>
 
