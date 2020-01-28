@@ -55,10 +55,12 @@ small {
   font-weight: 500;
 }
 .name {
-  color: $seafoam;
+  // color: $seafoam;
   font-family: adriane, serif;
-  font-weight: 700;
-  font-size: $h4-font-size;
+  font-weight: 300;
+  font-size: $h2-font-size;
+  line-height: 1;
+  margin-right: 6px;
 }
 
 .about {
@@ -146,10 +148,6 @@ small {
     }
 
   }
-  @media (min-width: 768px) {
-    flex-direction: column;
-    font-size: $font-size-base;
-  }
   li {
     margin-bottom: $spacer*1.25;
     margin-left: $spacer*1.25;
@@ -167,15 +165,28 @@ small {
 .header-nav {
   background-color: $navy;
   color: $white;
-  // max-width: 300px;
   height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 100;
   &_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    &--index {
+      height: 7rem;
+      border-bottom: 1px solid rgba(255,255,255,.4);
+      align-items: flex-end;
+      padding-bottom: 20px;
+    }
   }
-  @media (min-width: 768px) {
-    display: hide;
+  &--index {
+    height: 8rem;
+    position: relative;
+  }
+  @media only screen and (max-width: 515px) {
+
   }
 }
 .horizontal-menu {
@@ -185,10 +196,10 @@ small {
 }
 .logo-styled {
   font-family: adriane, serif;
-  @media (min-width: 768px) {
-    font-size: $h3-font-size;
-    line-height: $h3-font-size;
-  }
+  // @media (min-width: 768px) {
+  //   font-size: $h3-font-size;
+  //   line-height: $h3-font-size;
+  // }
   font-size: $h5-font-size;
   line-height: $h5-font-size;
   a {
@@ -232,6 +243,13 @@ small {
   bottom: 0;
   height: 50px;
   align-items: center;
+  a {
+    color: #ffffff;
+    text-decoration: underline;
+    &:hover {
+      color: $link;
+    }
+  }
 }
 
 //layout
@@ -241,14 +259,18 @@ small {
 }
 
 .cv-page-heading {
-  max-width: 900px;
+  // max-width: 900px;
   margin: 0;
   align-items: center;
+  margin-top: 90px;
+  @media only screen and (max-width: 515px) {
+      margin-top: 40px;
+  }
 }
 .content-section{
   background-color: $gray-150;
   border-radius: .2rem;
-  max-width: 1000px;
+  // max-width: 1000px;
 }
 .cv-section {
   margin-bottom: 2rem;
@@ -271,7 +293,31 @@ small {
   }
 }
 
-
+.heading-small {
+  font-size: 12px;
+  font-weight: 600;
+  color: #7a7a7a;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #acacac;
+}
 img.img-group {
   width: 100%;
+}
+.home-pg-hero {
+  height: 70vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  p {
+    max-width: 700px;
+  }
+  @media only screen and (max-width: 780px) {
+    p {
+      max-width: 490px;
+    }
+  }
+}
+.modal-backdrop {
+  z-index: 0;
 }

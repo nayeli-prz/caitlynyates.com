@@ -1,9 +1,9 @@
 <!doctype html>
 <?php require(__DIR__."/partials/head.php") ?>
 <body>
-  <div class="container-fluid">
-      <?php require(__DIR__."/partials/nav.php") ?>
-      <div class="col mt-3 blue p-5">
+  <?php require(__DIR__."/partials/nav.php") ?>
+  <div class="container">
+      <div class="col blue py-5">
         <div class="row justify-content-between cv-page-heading mb-4">
         <h1>Contact</h1>
         </div>
