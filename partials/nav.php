@@ -1,5 +1,8 @@
-<nav class="row header-nav d-block d-md-none pl-5 pt-3 pr-5">
-      <div class="header-nav_container">
+<!-- Blocks on all sizes except md size and larger  D-none d-sm-block-->
+<!-- <nav class="row header-nav d-block d-md-none pl-5 pt-3 pr-5"> -->
+<nav class="<?= (($page_name == "index") ? "header-nav--index" : "")." header-nav d-block px-3 pt-3"?>
+  ">
+      <div class="<?= (($page_name == "index") ? "header-nav_container--index" : "")." container header-nav_container"?>">
         <div class="logo-styled"><a href="index.php">Caitlyn<br>Yates</a>
         </div>
         <div class="horizontal-menu d-none d-sm-sm-block">
@@ -34,6 +37,7 @@
 
           </ul>
         </div>
+        <!-- Blocks on all sizes except for the 'sm-sm' size (516px) -->
         <div class="cait-icon d-block d-sm-sm-none">
           <span data-toggle="modal" data-target="#exampleModal"><img src="assets/images/menu.svg"></span>
           <!-- Modal -->
@@ -76,37 +80,3 @@
         </div>
       </div>
     </nav>
-    <div class="row">
-      <!-- Large Breakpoint Menu -->
-      <nav class="col-3 sidebar-nav p-5 d-none d-md-block">
-        <div class="mt-3" style="position: fixed;">
-          <div class="logo-styled"><a href="index.php">Caitlyn<br>Yates</div></a>
-          <ul class="nav-menu mt-5">
-            <li class="menu-item">
-              <a
-                href="about.php"
-                class=<?= ($page_name == "about") ? "active" : "" ?>
-               >About</a>
-            </li>
-            <li class="menu-item">
-              <a
-                href="cv.php"
-                class=<?= ($page_name == "cv") ? "active" : "" ?>
-              >CV</a>
-            </li>
-            <li class="menu-item">
-              <a
-                href="publications.php"
-                class=<?= ($page_name == "publications") ? "active" : "" ?>
-              >Publications</a>
-            </li>
-            <li class="menu-item">
-              <a
-                href="contact.php"
-                class=<?= ($page_name == "contact") ? "active" : "" ?>
-              >Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-<!-- End Navigation -->
