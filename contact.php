@@ -33,7 +33,13 @@
         </div>
       </div>
     </div>
+<<<<<<< HEAD
     <?php require(__DIR__."/partials/footer.php") ?>
+=======
+    <div class="<?=(($page_name == "contact") ? "position-absolute w-100" : "")." row footer"?>">
+      <small class="pt-3">Made by Nayeli Pérez | Copyright 2019</small>
+    </div>
+>>>>>>> 6152f73a2cea2dc697e9a5bc2ecefda58d1c2481
 
   </div>
 </body>
