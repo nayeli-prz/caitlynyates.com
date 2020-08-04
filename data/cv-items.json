@@ -3,6 +3,12 @@
     "header": "Education",
     "content": [
       {
+          "date": "2020 - Present",
+          "title": "<small>Currently Pursuing,</small> PhD in Socio-Cultural Anthropology",
+          "sub": "<em>University of British Columbia, Department of Anthropology</em>"
+
+      },
+      {
           "date": "2018",
           "title": "M.A. in Global Policy Studies",
           "sub": "<em>LBJ School of Public Affairs at the University of Texas at Austin</em>"
