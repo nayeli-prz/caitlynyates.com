@@ -4,7 +4,7 @@
 <body>
   <?php require(__DIR__."/partials/nav.php") ?>
   <div class="container">
-    <div class="col mt-3 blue py-6">
+    <div class="col mt-3 blue pt-5 pb-6">
       <div class="row justify-content-between cv-page-heading mb-4">
         <h1>About</h1>
       </div>
